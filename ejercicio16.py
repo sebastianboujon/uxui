@@ -3,6 +3,6 @@ pila_episodio_vii = ["Rey", "Finn", "Kylo Ren", "Poe Dameron", "BB-8", "Luke Sky
 
 interseccion = list(set(pila_episodio_v) & set(pila_episodio_vii))
 
-print("Personajes que aparecen en ambos episodios:")
+print("Personajes que aparecen en los dos episodios:")
 for personaje in interseccion:
     print(personaje)
