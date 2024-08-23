@@ -47,7 +47,7 @@ def mostrarPokemonsTerminadosEn(terminaciones):
             print(pokemon)
 
 def mostrarPokemonsMultiploNivel(multiplo):
-    print(f"\nPokémons cuyos niveles son múltiplos de {multiplo}:")
+    print(f"Pokémons cuyos niveles son múltiplos de {multiplo}:")
     for i in range(table_hash_nivel.size):
         lista_pokemons = table_hash_nivel.get(i)
         for pokemon in lista_pokemons:
@@ -55,7 +55,7 @@ def mostrarPokemonsMultiploNivel(multiplo):
                 print(pokemon)
 
 def mostrarPokemonsPorTipo(tipos_a_mostrar):
-    print("\nPokémons de los tipos:", tipos_a_mostrar)
+    print("Pokémons de los tipos:", tipos_a_mostrar)
     for tipo in tipos_a_mostrar:
         index_tipo = table_hash_tipo.hash_tipo(tipo)
         lista_pokemons = table_hash_tipo.get(index_tipo)
