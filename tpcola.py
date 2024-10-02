@@ -107,3 +107,48 @@ print("c. Nombres de los personajes masculinos:", nombres_personajes_masculinos(
 print("d. Nombre del superhéroe de Scott Lang:", nombre_superheroe_scott_lang(personajes_mcu))
 print("e. Datos de superhéroes o personajes cuyos nombres comienzan con 'S':", datos_nombres_con_s(personajes_mcu))
 print("f. Nombre del superhéroe de Carol Danvers:", verificar_carol_danvers(personajes_mcu))
+
+
+#ejercicio 5
+from collections import deque
+
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        return self.items.pop() if not self.is_empty() else None
+
+    def is_empty(self):
+        return len(self.items) == 0
+
+    def peek(self):
+        return self.items[-1] if not self.is_empty() else None
+
+def invert_stack(original_stack):
+    queue = deque()
+
+    while not original_stack.is_empty():
+        queue.append(original_stack.pop())
+
+    heap = Heap()
+
+    while queue:
+        heap.push(queue.popleft())
+    while heap.heap:
+        original_stack.push(heap.pop())
+
+stack = Stack()
+for i in range(1, 6):  # Agrego elementos 1 a 5 a la pila
+    stack.push(i)
+
+print("Pila original:")
+print(stack.items)
+
+invert_stack(stack)
+
+print("Pila invertida:")
+print(stack.items)
