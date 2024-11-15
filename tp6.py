@@ -309,10 +309,8 @@ for origen, destino, distancia in arbol_natural:
     print(f"{origen} - {destino}: {distancia} km")
 print(f"Costo total (natural): {costo_natural} km")
 
-# Verificar si existen países con maravillas de ambos tipos
 paises_ambos_tipos = pais_con_ambos_tipos(grafo)
 print(f"Países con maravillas de ambos tipos: {paises_ambos_tipos}")
 
-# Verificar si algún país tiene más de una maravilla del mismo tipo
 paises_multimaravillas = pais_multiples_maravillas(grafo)
 print(f"Países con múltiples maravillas del mismo tipo: {paises_multimaravillas}")
