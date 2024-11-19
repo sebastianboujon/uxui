@@ -3,25 +3,25 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff; /* Fondo blanco */
-    text-align: center; /* Centrar todo el texto de forma predeterminada */
+    background-color: #fff; 
+    text-align: center; 
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #2C3E50; /* Azul oscuro para el header */
+    background-color: #2C3E50; 
     color: #fff;
     padding: 20px;
 }
 
 /* Estilos para el menú de navegación */
 nav ul {
-    list-style: none; /* Eliminar puntos de la lista */
+    list-style: none; 
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centrar los elementos */
-    gap: 35px; /* Espacio entre los enlaces */
+    justify-content: center; 
+    gap: 35px; 
 }
 
 nav li {
@@ -32,28 +32,28 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    padding: 10px 20px; /* Añadimos más espacio dentro de los enlaces */
+    padding: 10px 20px; 
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 nav a:hover {
-    background-color: #FF9F69; /* Naranja suave al pasar el mouse */
+    background-color: #FF9F69; 
 }
 
 /* Estilos para las secciones */
 section {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #FFF; /* Fondo blanco para las secciones */
+    background-color: #FFF; 
     border-radius: 8px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centrar los textos dentro de las secciones */
+    text-align: center; 
 }
 
 /* Estilos para los títulos de sección */
 h2 {
-    color: #F97F3F; /* Un naranja más oscuro y cálido */
+    color: #F97F3F; 
     font-size: 24px;
     margin-bottom: 15px;
 }
@@ -62,41 +62,41 @@ h2 {
 p {
     font-size: 16px;
     line-height: 1.5;
-    color: #4A4A4A; /* Gris oscuro para mejor legibilidad */
+    color: #4A4A4A; 
 }
 
 /* Estilos para los proyectos */
 #proyectos {
-    background-color: #FFF; /* Fondo blanco para la sección de proyectos */
+    background-color: #FFF;
     padding: 20px;
 }
 
 .proyecto {
-    background-color: #2C3E50; /* Fondo oscuro para cada tarjeta de proyecto */
+    background-color: #2C3E50; 
     color: white;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s;
-    text-align: center; /* Centrar el texto dentro de cada tarjeta de proyecto */
+    text-align: center; /
 }
 
 .proyecto:hover {
-    background-color: #FF9F69; /* Naranja al pasar el mouse */
+    background-color: #FF9F69; 
 }
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #2C3E50; /* Azul oscuro para el footer */
-    color: white; /* Texto blanco para mejor visibilidad */
+    background-color: #2C3E50; 
+    color: white;
     text-align: center;
     padding: 10px 0;
 }
 
 /* Estilos para la sección de habilidades */
 #habilidades {
-    background-color: #FFF; /* Fondo blanco para habilidades */
+    background-color: #FFF;
     padding: 20px;
 }
 
@@ -104,14 +104,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    list-style: none; /* Eliminar los puntos de la lista */
-    padding: 0; /* Eliminar cualquier espacio por defecto */
-    margin: 0; /* Eliminar márgenes por defecto */
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
 }
 
 .habilidad {
     display: inline-block;
-    background-color: #2C3E50; /* Fondo oscuro para cada habilidad */
+    background-color: #2C3E50;
     color: white;
     padding: 10px 20px;
     margin: 5px;
@@ -122,7 +122,7 @@ footer {
 }
 
 .habilidad:hover {
-    background-color: #FF9F69; /* Naranja al pasar el mouse */
+    background-color: #FF9F69;
 }
 
 /* Responsividad */
@@ -145,6 +145,6 @@ footer {
     }
 
     .habilidad {
-        font-size: 14px; /* Reduce el tamaño de las habilidades en pantallas pequeñas */
+        font-size: 14px; 
     }
 }
