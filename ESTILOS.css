@@ -1,0 +1,150 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fondo blanco */
+    text-align: center; /* Centrar todo el texto de forma predeterminada */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #2C3E50; /* Azul oscuro para el header */
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style: none; /* Eliminar puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar los elementos */
+    gap: 35px; /* Espacio entre los enlaces */
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px; /* Añadimos más espacio dentro de los enlaces */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #FF9F69; /* Naranja suave al pasar el mouse */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF; /* Fondo blanco para las secciones */
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar los textos dentro de las secciones */
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+    color: #F97F3F; /* Un naranja más oscuro y cálido */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4A4A4A; /* Gris oscuro para mejor legibilidad */
+}
+
+/* Estilos para los proyectos */
+#proyectos {
+    background-color: #FFF; /* Fondo blanco para la sección de proyectos */
+    padding: 20px;
+}
+
+.proyecto {
+    background-color: #2C3E50; /* Fondo oscuro para cada tarjeta de proyecto */
+    color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    text-align: center; /* Centrar el texto dentro de cada tarjeta de proyecto */
+}
+
+.proyecto:hover {
+    background-color: #FF9F69; /* Naranja al pasar el mouse */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #2C3E50; /* Azul oscuro para el footer */
+    color: white; /* Texto blanco para mejor visibilidad */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para la sección de habilidades */
+#habilidades {
+    background-color: #FFF; /* Fondo blanco para habilidades */
+    padding: 20px;
+}
+
+.habilidades-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar cualquier espacio por defecto */
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+.habilidad {
+    display: inline-block;
+    background-color: #2C3E50; /* Fondo oscuro para cada habilidad */
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.habilidad:hover {
+    background-color: #FF9F69; /* Naranja al pasar el mouse */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .proyecto {
+        padding: 15px;
+    }
+
+    .habilidad {
+        font-size: 14px; /* Reduce el tamaño de las habilidades en pantallas pequeñas */
+    }
+}
